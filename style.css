@@ -12,7 +12,7 @@ html, body {
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: #969598 #e8e8ed;
-  cursor: url('arrowhead-rounded-outline.svg'), auto;
+  cursor: url('assets/arrowhead-rounded-outline.svg'), auto;
 }
 
 ::-webkit-scrollbar {
@@ -102,7 +102,7 @@ html, body {
   cursor: pointer;
 }
 .input-area button:hover {
-  cursor: url('hand-pointer.svg'), auto;
+  cursor: url('assets/hand-pointer.svg'), auto;
 }
 .input-area button span {
   font-size: clamp(18px, 3vw, 25px);
@@ -123,7 +123,7 @@ html, body {
   height: clamp(80px, 15vw, 150px);
   width: clamp(100px, 20vw, 180px);
   border-radius: 10px;
-  background-image: url(img1.png);
+  background-image: url(assets/img1.png);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -135,7 +135,7 @@ html, body {
   height: clamp(100px, 20vw, 185px);
   width: clamp(120px, 30vw, 247px);
   border-radius: 10px;
-  background-image: url(img2.webp);
+  background-image: url(assets/img2.webp);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -144,7 +144,7 @@ html, body {
 }
 
 .reset {
-  background-image: url('trash-can-regular.svg');
+  background-image: url('assets/trash-can-regular.svg');
   background-repeat: no-repeat;
   background-size: 18px;
   background-position: 10px 8px;
@@ -156,7 +156,7 @@ html, body {
   right: 24.5vw;
 }
 .reset:hover {
-  cursor: url('hand-pointer.svg'), auto;
+  cursor: url('assets/hand-pointer.svg'), auto;
 }
 
 .btns {
@@ -175,7 +175,7 @@ html, body {
   letter-spacing: 1px;
 }
 .download:hover {
-  cursor: url('hand-pointer.svg'), auto;
+  cursor: url('assets/hand-pointer.svg'), auto;
 }
 
 .guide {
@@ -201,7 +201,7 @@ html, body {
 }
 
 .example-img {
-  background-image: url('ex-img.png');
+  background-image: url('assets/ex-img.png');
   height: auto;
   width: clamp(300px, 70vw, 700px);
   aspect-ratio: 16/9;
